@@ -1,6 +1,6 @@
 (function(fs, express, bodyParser){
     var app = express();
-    var path = 'C:/mfo',
+    var path = process.env.EMAIL_PATH || '~/mfo',
         port = process.env.PORT || 9090;
     app.use(bodyParser.json());
     app.post('/subscribe/', function(req, res) {

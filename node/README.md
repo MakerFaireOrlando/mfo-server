@@ -13,5 +13,5 @@ $ node app.js
 
 Set PORT
 ```bash
-$ PORT=8000 node app.js
+$ EMAIL_PATH="~/mfo/emails" PORT=8000 node app.js
 ```

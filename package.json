@@ -16,7 +16,8 @@
     "url": "https://github.com/MakerFaireOrlando/mfo-server/issues"
   },
   "dependencies": {
-    "express": "~4.6.1",
-    "body-parser": "~1.4.3"
+    "body-parser": "^1.4.3",
+    "express": "^4.6.1",
+    "mongoose": "^3.8.13"
   }
 }

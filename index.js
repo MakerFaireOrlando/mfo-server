@@ -9,4 +9,4 @@ app.use(bodyParser.json())
 app.post('/subscribe', email.subscribe)
 
 
-app.listen(config.port)
+app.listen(process.env.PORT || config.port)
